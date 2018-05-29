@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandApi", "StandApi\StandApi.csproj", "{B99E2C36-828A-4B57-96A0-4FF2FFC2BCA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StandApi", "StandApi\StandApi.csproj", "{B99E2C36-828A-4B57-96A0-4FF2FFC2BCA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandApi.Tests", "StandApi.Tests\StandApi.Tests.csproj", "{EEEDDE05-7205-4BF1-9168-E6F664349810}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B99E2C36-828A-4B57-96A0-4FF2FFC2BCA7} = {B99E2C36-828A-4B57-96A0-4FF2FFC2BCA7}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{B99E2C36-828A-4B57-96A0-4FF2FFC2BCA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B99E2C36-828A-4B57-96A0-4FF2FFC2BCA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B99E2C36-828A-4B57-96A0-4FF2FFC2BCA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEEDDE05-7205-4BF1-9168-E6F664349810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEEDDE05-7205-4BF1-9168-E6F664349810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEEDDE05-7205-4BF1-9168-E6F664349810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEEDDE05-7205-4BF1-9168-E6F664349810}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
